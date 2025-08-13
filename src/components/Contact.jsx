@@ -101,7 +101,7 @@ function Contact() {
                 </svg>
               </div>
               <div className="contact-details">
-                <h3>Twitter</h3>
+                <h3>X</h3>
                 <a href="https://x.com/S_j_K123" target="_blank" rel="noopener noreferrer">
                   @S_j_K123
                 </a>

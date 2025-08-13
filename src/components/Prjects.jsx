@@ -9,43 +9,43 @@ export default function Projects() {
       description: "Summarist is a modern web app with HTML, CSS, JavaScript, and Node.js. Using Redux and Firebase for dynamic user experiences.",
       image: "/images/summarist.png",
       technologies: ["HTML, CSS, JavaScript, Next.JS, Redux, Firebase"],
-      github: "#",
+      github: "https://github.com/shabnamjabeenkhan",
       demo: "https://summarist-taupe.vercel.app/"
     },
     {
       id: 2,
       title: "NFT Marketplace",
       description: "Transformed a completely static HTML, CSS, Javascript, and React single page application into an interactive user interface using animations, transitions, and carousels.",
-      image: "/api/placeholder/300/200",
+      image: "/images/nft.png",
       technologies: ["React", "Web3", "Ethereum", "CSS"],
-      github: "#",
+      github: "https://github.com/shabnamjabeenkhan",
       demo: "https://shabnam-internship-7gkfpxpsb-s-j-k123.vercel.app/"
     },
     {
       id: 3,
       title: "X Clone",
       description: "A feature-rich social media platform built using Node.js, HTML, TypeScript, and npm. With React Icons, Redux, firebase, and Tailwind CSS, our platform offers a visually appealing and intuitive user experience.",
-      image: "/api/placeholder/300/200", 
+      image: "/images/twitter.png", 
       technologies: ["HTML, CSS, JavaScript, Next.JS, Redux, Firebase"],
-      github: "#",
+      github: "https://github.com/shabnamjabeenkhan",
       demo: "https://twitter-clone-s-j-k123.vercel.app/"
     },
     {
       id: 4,
       title: "HTML Email Developing",
       description: "I have created emails from scratch that are fully responsive using HTML and CSS, including projects done for clients.",
-      image: "/api/placeholder/300/200",
+      image: "/images/email.png",
       technologies: ["HTML", "CSS"],
-      github: "#",
+      github: "https://github.com/shabnamjabeenkhan",
       demo: "https://shabnamjabeen1998.wixsite.com/my-site"
     },
     {
       id: 5,
       title: "Podclip",
-      description: "Podcast summariser, users can generate episode summaries, key takeaways and talk with their Poscast Library",
-      image: "/api/placeholder/300/200",
-      technologies: ["React Native", "Redux", "API"],
-      github: "#",
+      description: "Podcast summariser, users can generate episode summaries, key takeaways and talk with their Podcast library",
+      image: "/images/podclip.png",
+      technologies: ["React Router v7", "Convex", "Clerk", "Polar.sh", "Resend", "OpenAI", "Vercel"],
+      github: "https://github.com/shabnamjabeenkhan",
       demo: "https://podclip.tech"
     }
   ]
