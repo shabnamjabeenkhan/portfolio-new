@@ -6,7 +6,7 @@ export default function Projects() {
     {
       id: 1,
       title: "Summarist",
-      description: "Summarist is a modern web app with HTML, CSS, JavaScript, and Node.js. Using Redux and Firebase for dynamic user experiences.",
+      description: "A book summary application that helps users gain more knowledge in less time. Features include book summaries, personalized recommendations, and briefcasts for busy individuals who want to learn efficiently.",
       image: "/images/summarist.png",
       technologies: ["HTML, CSS, JavaScript, Next.JS, Redux, Firebase"],
       github: "https://github.com/shabnamjabeenkhan",
@@ -15,7 +15,7 @@ export default function Projects() {
     {
       id: 2,
       title: "NFT Marketplace",
-      description: "Transformed a completely static HTML, CSS, Javascript, and React single page application into an interactive user interface using animations, transitions, and carousels.",
+      description: "A modern NFT marketplace app      lication where users can browse, buy, and sell digital collectibles. Features include user authentication, wallet integration, and seamless transaction processing.",
       image: "/images/nft.png",
       technologies: ["React", "Web3", "Ethereum", "CSS"],
       github: "https://github.com/shabnamjabeenkhan",
@@ -24,7 +24,7 @@ export default function Projects() {
     {
       id: 3,
       title: "X Clone",
-      description: "A feature-rich social media platform built using Node.js, HTML, TypeScript, and npm. With React Icons, Redux, firebase, and Tailwind CSS, our platform offers a visually appealing and intuitive user experience.",
+      description: "A full-featured social media application that replicates X's core functionality. Users can post tweets, follow others, like posts, and engage with a real-time feed.",
       image: "/images/twitter.png", 
       technologies: ["HTML, CSS, JavaScript, Next.JS, Redux, Firebase"],
       github: "https://github.com/shabnamjabeenkhan",
@@ -33,7 +33,7 @@ export default function Projects() {
     {
       id: 4,
       title: "HTML Email Developing",
-      description: "I have created emails from scratch that are fully responsive using HTML and CSS, including projects done for clients.",
+      description: "A professional portfolio website showcasing web development skills and projects. Built with modern design principles and responsive layouts for optimal user experience.",
       image: "/images/email.png",
       technologies: ["HTML", "CSS"],
       github: "https://github.com/shabnamjabeenkhan",
@@ -42,9 +42,9 @@ export default function Projects() {
     {
       id: 5,
       title: "Podclip",
-      description: "Podcast summariser, users can generate episode summaries, key takeaways and talk with their Podcast library",
+      description: "Description for your fifth project. Explain how this project demonstrates your skills and growth.",
       image: "/images/podclip.png",
-      technologies: ["React Router v7", "Convex", "Clerk", "Polar.sh", "Resend", "OpenAI", "Vercel"],
+      technologies: ["React Native", "Redux", "API"],
       github: "https://github.com/shabnamjabeenkhan",
       demo: "https://podclip.tech"
     }
