@@ -42,17 +42,26 @@ export default function Projects() {
     {
       id: 5,
       title: "Podclip",
-      description: "Description for your fifth project. Explain how this project demonstrates your skills and growth.",
+      description: "Turn Podcasts into Actionable Insights.",
       image: "/images/podclip.png",
-      technologies: ["React Native", "Redux", "API"],
+      technologies: ["ReactJS", "Convex", "API", "Polar", "OpenAI"],
       github: "https://github.com/shabnamjabeenkhan",
       demo: "https://podclip.tech"
+    },
+    {
+      id: 6,
+      title: "TradeBoost AI",
+      description: "TradeBoost AI is an all-in-one platform that creates, optimises, and pushes Google Ads campaigns for tradespeople — helping them get more local leads with less effort.",
+      image: "/images/tradeboost.png",
+      technologies: ["ReactJS", "Convex", "API", "Polar", "OpenAI", "Google API"],
+      github: "https://github.com/shabnamjabeenkhan",
+      demo: "https://www.tradeboostai.tech/"
     }
   ]
 
   return (
     <div className="projects-container">
-      <h1>My Projects</h1>
+      <h1 className='projects-title'>My Projects</h1>
       <div className="projects-grid">
         {projects.map(project => (
           <div key={project.id} className="project-card">
