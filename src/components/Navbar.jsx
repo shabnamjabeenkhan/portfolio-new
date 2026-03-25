@@ -1,7 +1,22 @@
-import { Link } from 'react-router-dom'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 import './Navbar.css'
 
 function Navbar() {
+  const navigate = useNavigate()
+  const location = useLocation()
+
+  const handleProjectsClick = (event) => {
+    event.preventDefault()
+    if (location.pathname === '/') {
+      const projectsSection = document.getElementById('projects')
+      if (projectsSection) {
+        projectsSection.scrollIntoView({ behavior: 'smooth' })
+      }
+    } else {
+      navigate('/', { state: { scrollTo: 'projects' } })
+    }
+  }
+
   return (
     <nav className="navbar">
       <div className="nav-container">
@@ -16,7 +31,9 @@ function Navbar() {
             <Link to="/" className="nav-link">About</Link>
           </li>
           <li className="nav-item">
-            <Link to="/projects" className="nav-link">Projects</Link>
+            <button type="button" className="nav-link nav-button" onClick={handleProjectsClick}>
+              Projects
+            </button>
           </li>
           <li className="nav-item">
             <Link to="/contact" className="nav-link">Contact</Link>
