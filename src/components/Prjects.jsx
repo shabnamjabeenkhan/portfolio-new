@@ -9,7 +9,7 @@ export default function Projects() {
       description: "A book summary application that helps users gain more knowledge in less time. Features include book summaries, personalized recommendations, and briefcasts for busy individuals who want to learn efficiently.",
       image: "/images/summarist.png",
       technologies: ["HTML, CSS, JavaScript, Next.JS, Redux, Firebase"],
-      github: "https://github.com/shabnamjabeenkhan",
+      github: "https://github.com/shabnamjabeenkhan/summarist",
       demo: "https://summarist-taupe.vercel.app/"
     },
     {
@@ -23,12 +23,12 @@ export default function Projects() {
     },
     {
       id: 3,
-      title: "X Clone",
-      description: "A full-featured social media application that replicates X's core functionality. Users can post tweets, follow others, like posts, and engage with a real-time feed.",
-      image: "/images/twitter.png", 
-      technologies: ["HTML, CSS, JavaScript, Next.JS, Redux, Firebase"],
-      github: "https://github.com/shabnamjabeenkhan",
-      demo: "https://twitter-clone-s-j-k123.vercel.app/"
+      title: "Qaalib",
+      description: "Designed and implemented a scalable tutor assessment system, enabling tracking and visualization of 100+ student evaluations with actionable performance insights. ",
+      image: "/images/qaalib.png", 
+      technologies: ["React Router, TypeScript, Convex, Polar"],
+      github: "https://github.com/shabnamjabeenkhan/Qaalib",
+      demo: "https://www.qaalibtutors.com/"
     },
     {
       id: 4,
@@ -45,7 +45,7 @@ export default function Projects() {
       description: "Turn Podcasts into Actionable Insights.",
       image: "/images/podclip.png",
       technologies: ["ReactJS", "Convex", "API", "Polar", "OpenAI"],
-      github: "https://github.com/shabnamjabeenkhan",
+      github: "https://github.com/shabnamjabeenkhan/podclip.tech",
       demo: "https://podclip.tech"
     },
     {
@@ -54,9 +54,9 @@ export default function Projects() {
       description: "TradeBoost AI is an all-in-one platform that creates, optimises, and pushes Google Ads campaigns for tradespeople — helping them get more local leads with less effort.",
       image: "/images/tradeboost.png",
       technologies: ["ReactJS", "Convex", "API", "Polar", "OpenAI", "Google API"],
-      github: "https://github.com/shabnamjabeenkhan",
+      github: "https://github.com/shabnamjabeenkhan/saas-project",
       demo: "https://www.tradeboostai.tech/"
-    }
+    },
   ]
 
   return (
