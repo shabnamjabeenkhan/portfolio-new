@@ -13,6 +13,21 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.nav-logo-img {
+  height: 32px;
+  width: auto;
+  display: block;
 }
 
 .nav-menu {
@@ -54,6 +69,10 @@
   
   .nav-container {
     padding: 0 0.5rem;
+  }
+  
+  .nav-logo-img {
+    height: 28px;
   }
   
   .nav-menu {
