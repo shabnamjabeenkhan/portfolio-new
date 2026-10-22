@@ -25,10 +25,11 @@ function Home() {
   return (
     <main>
       <h1>Shabnam Khan</h1>
-      <p>Software Developer</p>
+      <p>DevOps Engineer</p>
       <div className="about-section">
-        <p>I'm a passionate software developer who loves exploring new technologies and building innovative solutions. Recently, I've been diving deep into the world of SaaS applications, creating tools that solve real-world problems and enhance user experiences.</p>
-        <p>When I'm not coding, you'll find me experimenting with the latest frameworks and constantly learning new ways to improve my craft.</p>
+        <p>I'm a DevOps Engineer focused on building scalable, reliable, and secure infrastructure while bridging the gap between development and operations. I thrive on automating workflows, optimising CI/CD pipelines, and leveraging cloud-native technologies to streamline software delivery.
+
+My interests span cloud computing, Infrastructure as Code (IaC), containerisation, orchestration, and observability.</p>
       </div>
       <div className="social-icons">
         <a href="https://x.com/S_j_K123" target="_blank" rel="noopener noreferrer" className="social-link">

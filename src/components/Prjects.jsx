@@ -5,12 +5,11 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Summarist",
-      description: "A book summary application that helps users gain more knowledge in less time. Features include book summaries, personalized recommendations, and briefcasts for busy individuals who want to learn efficiently.",
-      image: "/images/summarist.png",
-      technologies: ["HTML, CSS, JavaScript, Next.JS, Redux, Firebase"],
-      github: "https://github.com/shabnamjabeenkhan/summarist",
-      demo: "https://summarist-taupe.vercel.app/"
+      title: "ECS-Fargate",
+      description: "An end-to-end DevOps project deploying Threat Composer to AWS ECS Fargate using Docker, Terraform, and GitHub Actions, with automated CI/CD, secure OIDC authentication, and HTTPS through an Application Load Balancer.",
+      image: "/images/ecs-fargate.png",
+      technologies: ["AWS ECS Fargate", "Terraform", "Docker", "GitHub Actions", "ECR", "Route 53", "ACM"],
+      github: "https://github.com/shabnamjabeenkhan/ecs-fargate",
     },
     {
       id: 2,
@@ -57,6 +56,15 @@ export default function Projects() {
       github: "https://github.com/shabnamjabeenkhan/saas-project",
       demo: "https://www.tradeboostai.tech/"
     },
+    {
+      id: 7,
+      title: "Summarist",
+      description: "A book summary application that helps users gain more knowledge in less time. Features include book summaries, personalized recommendations, and briefcasts for busy individuals who want to learn efficiently.",
+      image: "/images/summarist.png",
+      technologies: ["HTML, CSS, JavaScript, Next.JS, Redux, Firebase"],
+      github: "https://github.com/shabnamjabeenkhan/summarist",
+      demo: "https://summarist-taupe.vercel.app/"
+    },
   ]
 
   return (
@@ -80,9 +88,11 @@ export default function Projects() {
                 <a href={project.github} className="project-link" target="_blank" rel="noopener noreferrer">
                   GitHub
                 </a>
-                <a href={project.demo} className="project-link" target="_blank" rel="noopener noreferrer">
-                  Live Demo
-                </a>
+                {project.demo && (
+                  <a href={project.demo} className="project-link" target="_blank" rel="noopener noreferrer">
+                    Live Demo
+                  </a>
+                )}
               </div>
             </div>
           </div>
